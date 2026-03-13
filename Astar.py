@@ -86,7 +86,7 @@ class AStarBasicPlanner:
         node_dict = {tuple(self.start): start_node}
         
         iteration = 0
-        max_iterations = 20000
+        max_iterations = 10000
         
         while open_set and iteration < max_iterations:
             iteration += 1
