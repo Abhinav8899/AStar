@@ -1,6 +1,6 @@
-# A* Search Algorithm Implementation
+# A* Search Algorithm Implementation for UAV
 
-A clean, efficient Python implementation of the **A* (A-Star)** pathfinding algorithm. This repository includes the core logic and a suite of benchmarks to evaluate performance across different scenarios.
+A clean, efficient Python implementation of the **A* (A-Star)** pathfinding algorithm for UAV. This repository includes the core logic and a suite of benchmarks to evaluate performance across different scenarios.
 
 ## 🛠 Features
 * **Core A\* Logic:** Implemented in `Astar.py` with support for custom heuristics.
