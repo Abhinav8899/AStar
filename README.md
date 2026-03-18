@@ -47,6 +47,27 @@ else:
     print("No path found.")
 ```
 
+ 📊 Performance Benchmarking
+
+This repository includes three pre-configured benchmark scenarios to evaluate the algorithm's performance in 3D environments. These scripts measure **execution time**, **node expansion**, and **path optimality**.
+
+### How to Run
+Execute the benchmarks directly from your terminal:
+
+```bash
+# Scenario 1: Basic environment with low obstacle density
+python benchmarksingle1.py
+
+# Scenario 2: Moderate complexity with intersecting obstacles
+python benchmarksingle2.py
+
+# Scenario 3: High-complexity stress test with dense 3D obstacle fields
+python benchmarksingle3.py
+```
+
+## 🤝 Contributing
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
